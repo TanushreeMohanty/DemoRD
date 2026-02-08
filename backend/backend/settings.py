@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # --- PRODUCTION READY SETTINGS ---
 # 1. Get SECRET_KEY from environment or use a fallback for local dev
-SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-d#i+y@6*arkls2qijo*s69p*swv%coflut!o2ta^danm+lcy%h')
+SECRET_KEY = os.environ.get('SECRET_KEY', '7bf36607ee70bec4376acd1b92992746')
 
 # 2. Set DEBUG to False in production
 # On Render, set the environment variable DEBUG to 'False'
