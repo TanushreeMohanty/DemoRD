@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = "https://your-backend.onrender.com/api/todos/"; // Update after backend deploy
-
+// Change this from localhost to your new Render URL
+const API_URL = "https://demord-xg4s.onrender.com/api/todos/";
 function App() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState("");
