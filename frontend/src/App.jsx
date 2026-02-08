@@ -3,6 +3,7 @@ import axios from 'axios';
 
 // Change this from localhost to your new Render URL
 const API_URL = "https://demord-xg4s.onrender.com/api/todos/";
+// const API_URL = "http://127.0.0.1:8000/api/todos/";
 function App() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState("");
