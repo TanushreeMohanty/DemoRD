@@ -55,5 +55,4 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # --- CORS ---
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    os.environ.get('FRONTEND_URL', 'https://your-frontend.vercel.app'), 
-]
+"https://demo-rd.vercel.app",]
